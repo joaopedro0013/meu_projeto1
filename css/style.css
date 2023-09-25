@@ -1,0 +1,138 @@
+.container{
+    position: relative;
+    width: 400px;
+    height: 105px;
+    display:flex;
+    background: #fff;
+    padding: 28px 32px;
+    overflow: hidden;
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.6s ease-out;
+    margin: 100px auto;
+}
+.container_mostrar{
+    position: relative;
+    display:flex;
+    background: #fff;
+    padding: 28px 32px;
+    overflow: hidden;
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.6s ease-out;
+    margin: 100px auto;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #06283D;
+    flex-direction: column;
+}
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.sucesso{
+    width: 20%;
+    height: 40%;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    border-radius: 10px;
+    background: #4ceb6e;
+    border:#4ceb6e;
+}
+.busca{
+    width: 70%;
+    height: 40%;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    border:#fff;
+    font-size: 16px;
+}
+.resultados{
+    position: relative;
+    width: 400px;
+    height: 350px;
+    display: block;
+    background: #fff;
+    padding: 28px 32px;
+    overflow: hidden;
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.6s ease-out;
+    margin: 0px auto;
+    flex-direction: column;
+}
+.umidade{
+    width: 30%;
+    height: 35%;
+    float: left;
+    margin: auto;
+}
+
+.vento{
+    width: 30%;
+    height: 35%;
+    float: right;
+    margin: auto;
+}
+.temperatura{
+    width: 60%;
+    height: 50%;
+    margin: auto;
+}
+.not-found{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    scale: 0;
+    opacity: 0;
+    display: none;
+}
+.login{
+    width: 100px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    /* margin: auto; */
+    border-radius: 10px;
+    background: #4ceb6e;
+    border: #4ceb6e;
+}
+
+.container_login{
+    position: relative;
+    width: 400px;
+    height: 205px;
+    display: flow;
+    background: #fff;
+    padding: 28px 32px;
+    overflow: hidden;
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.6s ease-out;
+    margin: 100px auto;
+}
+.botoes_login_voltar{
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    background: #eb5a5a;
+    border:#eb5a5a;
+}
+.botoes_login{
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    background: #37aaff;
+    border:#37aaff;
+}
+table,td,th{
+    border: 2px solid;
+}
+
+@keyframes fadeIn{
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
